@@ -83,7 +83,7 @@ export default function LotteryEntrance() {
 
   return (
     <div>
-      Hi, from lottery entrance
+      Hi,i'm from lottery entrance
       {raffleAddress ? (
         <div>
           <button
@@ -109,6 +109,7 @@ export default function LotteryEntrance() {
             </span>
             <span>Players: {numberOfPlayers}</span>
             <span>RecentWinner: {recentWinner}</span>
+            
           </div>
         </div>
       ) : (
